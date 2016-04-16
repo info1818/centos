@@ -1,0 +1,22 @@
+实战：部署KVM虚拟化环境
+
+KVM 硬件辅助虚拟化
+
+KVM概述：KVM 即Kernel-based Virtual Machine基于内核的虚拟机。
+
+Intel酷睿i5 4590 支持虚拟化技术
+
+主流cpu都支持虚拟化技术
+
+linux下桌面虚拟化：
+
+KVM 只能在64位系统上部署
+
+1、调节BOIS使支持虚拟化
+
+2、操作系统必须是RHEL6 64位,32位不能安装KVM
+
+用xshell输入以下命令：
+# virt-manager
+
+
